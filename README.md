@@ -25,7 +25,7 @@ COMING SOON!
 
 ## Lessons Learned
 
-
+Through this project, I was able to gain a better understand of how to use Bootstrap and JQuery components. The styling that is applied to make the rows and columns are applied through Bootstrap which simplifies some aspects of styling. By using JQuery, I am also able to reference the HTML elements that exist within the Web Page. By accessing these elements, I am able to use them within functions that creates a dynamic interface that responds to time constraints, which was done possible with Day.js.
 
 
 ## License
