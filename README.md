@@ -2,9 +2,8 @@
 
 ## Description
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+Through this project, I will try to apply our lessons using JQuery and Bootstrap. Additionally, Third-Party-APIs such as Day.js were used in order to build upon the functionality of the website. By using this resource, I can add current date and time - making the Scheduler a responsive app that updates throughout the day. Continuing, from previous projects, is the use of LocalStorage in order to save the user's inputs. This allows them to save their activities within the text area and view them again even after leaving or closing the web page.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
 
 ## Technologies Used
 
@@ -14,15 +13,20 @@ You'll need to use the [Day.js](https://day.js.org/en/) library to work with dat
 | `CSS` | `https://developer.mozilla.org/en-US/docs/Web/HTML` | 
 | `Javascript` | `https://developer.mozilla.org/en-US/docs/Web/CSS` | 
 | `Git` | `https://docs.github.com/en` | 
+| `Day.js` | `https://day.js.org/en/` | 
+| `JQuery` | `https://jquery.com/` | 
+| `Bootstrap` | `https://getbootstrap.com/` | 
 
 ## Demo
 ![DemoGif]()
 
+COMING SOON!
+
 
 ## Lessons Learned
 
-While attempting this project, my goal was to implement features such as saving to LocalStorage, time intervals, and dynamically update my webpage.
-Through this project, I was also able to traverse the DOM with more ease and gained a deeper understanding of how to create, set variables, and append these elements by using Javascript.
+
+
 
 ## License
 Copyright <2023> <Daniele Bensan>

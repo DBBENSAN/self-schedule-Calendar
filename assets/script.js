@@ -34,13 +34,23 @@ $(function () {
     } else if (this.id < hourNow) {
       $(this).removeClass('present future').addClass('past');
     } else {
-      $(this).removeClass().addClass('future');
-    }})
+      $(this).removeClass('past present').addClass('future');
+    }
   })
 
+  $(".saveBtn").on("click", function () {
+    console.log(this);
+    var text = $(this).siblings(".description").val();
+    var time = $(this).parent().attr("id");
+
+    localStorage.setItem(time, text);
+  })
+
+})
 
 
-  
+
+
 // var main = $('.container-lg')
 // for (var i = 9; i = 17; i++) {
 //   var div = $('<div>').addClass('row time-block future').attr('id', i);
